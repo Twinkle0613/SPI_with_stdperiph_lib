@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g2 -Map=SPI_with_stdperiph_lib.map -O0 --gc-sections -LC:/Users/Hwa-Neng/CoIDE/workspace/SPI_with_stdperiph_lib -TC:\Users\Hwa-Neng\CoIDE\workspace\SPI_with_stdperiph_lib\STM32F103C8_FLASH.ld -g">
+      <target file="SPI_with_stdperiph_lib.elf" lastModified="154c9ffecb4">
+         <source file="..\obj\stm32f10x_usart.o" lastModified="154c7e4380d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="154c7e4363e"/>
+         <source file="..\obj\syscalls.o" lastModified="154c7e438ec"/>
+         <source file="..\obj\startup_stm32f103xb.o" lastModified="154c7e436cd"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="154c7e43763"/>
+         <source file="..\obj\system_stm32f1xx.o" lastModified="154c7e43560"/>
+         <source file="..\obj\main.o" lastModified="154c9ffea53"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="154c7e43983"/>
+      </target>
+   </processor>
+</history>

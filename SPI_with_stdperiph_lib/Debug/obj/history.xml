@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F103C8T6 -DUSE_STDPERIPH_DRIVER -DSTM32F103xB -I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\Hardware -I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\startup -I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib -I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf">
+      <target file="stm32f10x_rcc.o" lastModified="154c7e43763">
+         <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1"/>
+      </target>
+      <target file="startup_stm32f103xb.o" lastModified="154c7e436cd">
+         <source file="..\..\..\Conf\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="154c7e4380d">
+         <source file="..\..\..\Conf\Hardware\stm32f10x_usart.c" lastModified="154c4f36da9"/>
+      </target>
+      <target file="main.o" lastModified="154c9ffea53">
+         <source file="..\..\..\app\main.c" lastModified="154c9ffc91c"/>
+      </target>
+      <target file="system_stm32f1xx.o" lastModified="154c7e43560">
+         <source file="..\..\..\Conf\startup\system_stm32f1xx.c" lastModified="1518acc3ee0"/>
+      </target>
+      <target file="syscalls.o" lastModified="154c7e438ec">
+         <source file="..\..\..\Conf\syscalls.c" lastModified="154af482b57"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="154c7e4363e">
+         <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.c" lastModified="1548643542c"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="154c7e43983">
+         <source file="..\..\..\Conf\Hardware\stm32f10x_spi.c" lastModified="15486435481"/>
+      </target>
+   </processor>
+</history>

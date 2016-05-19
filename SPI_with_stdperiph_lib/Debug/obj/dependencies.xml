@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\Hardware /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\CMSIS /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\startup /I..\..\..\..\..\..\..\CoIDE\workspace /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf">
+      <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.h" lastModified="1548643532c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_usart.h" lastModified="15486435381">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.c" lastModified="1548643542c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\cmsis_gcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_usart.c" lastModified="154c4f36da9">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_usart.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\system_stm32f1xx.h" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Conf\system_stm32f10x.h" lastModified="1548a5329a5">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.h" lastModified="154b4947849">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\system_stm32f1xx.c" lastModified="1518acc3ee0">
+         <include file="..\..\..\Conf\startup\stm32f1xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_conf.h" lastModified="154b492506c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_gpio.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\Hardware /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\CMSIS /I..\..\..\..\..\..\..\CoIDE\workspace /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf\startup /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib /I..\..\..\..\..\..\..\CoIDE\workspace\SPI_with_stdperiph_lib\Conf">
+      <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.c" lastModified="154b49534e1">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cmFunc.h" lastModified="154860893a5">
+         <include file="..\..\..\Conf\CMSIS\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cmInstr.h" lastModified="154860893a7">
+         <include file="..\..\..\Conf\CMSIS\cmsis_gcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\stm32f103xb.h" lastModified="1518acc42c8">
+         <include file="..\..\..\Conf\CMSIS\core_cm3.h"/>
+         <include file="..\..\..\Conf\startup\system_stm32f1xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x.h" lastModified="1548a388a46">
+         <include file="..\..\..\Conf\CMSIS\core_cm3.h"/>
+         <include file="..\..\..\Conf\system_stm32f10x.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\stm32f1xx.h" lastModified="1518acc7590">
+         <include file="..\..\..\Conf\startup\stm32f103xb.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.h" lastModified="1548643532c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\startup_stm32f103xb.s" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_usart.h" lastModified="15486435381">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_gpio.c" lastModified="1548643542c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\cmsis_gcc.h" lastModified="150b68d6ff0">
+      </source>
+      <source file="..\..\..\Conf\syscalls.c" lastModified="154af484a97">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_usart.c" lastModified="154c4f36da9">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_usart.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cm3.h" lastModified="154860883d7">
+         <include file="..\..\..\Conf\CMSIS\core_cmInstr.h"/>
+         <include file="..\..\..\Conf\CMSIS\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\app\main.c" lastModified="154c9ffcd04">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_spi.h" lastModified="15486435369">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\system_stm32f1xx.h" lastModified="1518acc3ee0">
+      </source>
+      <source file="..\..\..\Conf\system_stm32f10x.h" lastModified="1548a5329a5">
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_spi.c" lastModified="15486435481">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_spi.h"/>
+         <include file="..\..\..\Conf\Hardware\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_rcc.h" lastModified="154b4947849">
+         <include file="..\..\..\Conf\Hardware\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Conf\startup\system_stm32f1xx.c" lastModified="1518acc3ee0">
+         <include file="..\..\..\Conf\startup\stm32f1xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Hardware\stm32f10x_conf.h" lastModified="154b492506c">
+         <include file="..\..\..\Conf\Hardware\stm32f10x_gpio.h"/>
+      </source>
+   </includePath>
+</dependencies>
